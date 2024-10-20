@@ -1,6 +1,6 @@
 # Cryptonite-TP
 1)HTML :
-New things i learned :<b>(Note i knew some html before this so i'm just listing the new things i leanred )</b>
+New things i learned :<b>(Note i knew some html before this so i'm just listing the new things i leanred )</b><br>
 a)Use of strong and em tags ,i was familiar with b and i tags b before.
 <br>
 b)Comments in html and keyboard shortcut to it that ctrl + /
