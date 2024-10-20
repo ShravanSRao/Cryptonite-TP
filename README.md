@@ -13,8 +13,8 @@ c)Purpose of DOCTYPE i knew it has to be used but through these lesson i got to 
 ```
 d)Target and rel property uses under anchor tags ,I also learned how to open a link in new tab .
 <br>
- <li>Noopener prevents the opened to link peroform changes on the webpage(Prevents tabnabbing)</li>
- <li>Noferrer prevents the linked site from knowing that this webpage has a link for it</li>
+ Noopener prevents the opened to link peroform changes on the webpage(Prevents tabnabbing)<br>
+ Noferrer prevents the linked site from knowing that this webpage has a link for it<br>
  ```
 <a href ="rickroll" taget="_blank" rel="noopener noreferrer"> 
 ```
