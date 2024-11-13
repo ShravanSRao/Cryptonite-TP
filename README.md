@@ -23,3 +23,15 @@ e)How to connect html files present in two different folders
 ../Folder_name/htmlfilename.html
 ```
 f)I also leanred how to make text bold in github and how to add lines of code in github txt files
+
+#Extra Learning :
+The Extra folder inside HTML contains a html file that i coded based on the things i learned from various videos on youtube 
+The things i learned are :
+A]Adding a favion to the webpage
+B]Diference between span and div :Span is a inline container wheras Div is a block conatiner
+C]Adding audio & video to a webpage,I learnt some other features in that for ex:Controls ,autoplay,muted,loop etc
+D]Description list (Previously just knew about ol and ul)
+E]I leanred about form tag and how later on we have to use action in it to link into the backend .I also learned label tag and how specifying it will link it to the backend.use of id inside input and how in and for should match [Idk how it works but i hope to learn it while learning backend devlopement]
+F]Diferent types of input for ex:reset,checkbox,radio,password,text
+G]Adding a textbox
+H]I also learned how to add a dropdown and tables but i didnt include it in this file.
