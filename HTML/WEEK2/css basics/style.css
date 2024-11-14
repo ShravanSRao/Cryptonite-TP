@@ -86,7 +86,8 @@ justify-content: space-between;
 section{
     background-color: rgb(0, 1, 26);
     color: white;
-    height: 150px;
+    padding: 25px 0;
+
 }
 .slide1{
     background-color: orangered;
@@ -100,10 +101,13 @@ section{
     }
 .slide1 .image{
     background-color: black;
-    height: 100%;
-    width: 35%;
-    
-
+    height: 30vh;
+    width: 35vw;
+    border: 2px solid white;
+    overflow: hidden;
+    background: url(./images/2.jpeg);
+    background-size:cover;
+    border-radius: 15px;
 }
 .slide1 .welcome{
     width: 50%;
@@ -111,3 +115,4 @@ section{
 .slide1 .welcome h1{
     font-size: 3em;
 }
+
