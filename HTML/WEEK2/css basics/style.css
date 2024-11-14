@@ -3,6 +3,8 @@
     font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  box-sizing: border-box;
+
   
 }
 
@@ -76,11 +78,41 @@ justify-content: space-between;
         display: none; /* Hide the element when screen width is <= 768px */
       }
     .navbar{
-        justify-content: center;<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        justify-content: center;
         flex-direction: row;
 
 
     }
+    /*Why does this nor work here */
+    /* .slide2{
+        flex-direction: column;
+        padding: 5%;
+        width: 99vw;
+        
+
+                
+       
+    }
+    .slide2 .card1{
+        background-image: linear-gradient(to left,rgb(131, 36, 255),blue);
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+    }
+    .slide2 .card2{
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+
+    }
+
+    .slide2 .card1 .content h1{
+        color: white;
+
+    } */
+         
+    
+    
   }
 section{
     background-color: rgb(199, 187, 187);
@@ -181,3 +213,60 @@ background-color: #00c3ff;
 margin: 5% 0;
 }
 
+@media screen and (max-width: 500px) {
+    
+    .slide2{
+        flex-direction: column;
+        padding: 5%;
+        width: 99vw;
+        
+
+                
+       
+    }
+    .slide2 .card1{
+        background-image: linear-gradient(to left,rgb(131, 36, 255),blue);
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+    }
+    .slide2 .card2{
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+
+    }
+
+    .slide2 .card1 .content h1{
+        color: white;
+
+    }
+}
+.slide4{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    color: #000000;
+    padding: 5%;
+}
+.slide4 h1{
+    
+    text-align: center;
+    font-size: 2.5em;
+
+
+}
+.slide4 .content ul li{
+    list-style: none;    text-align: center;
+
+}
+
+.slide4 .content{
+    height:80%;
+
+    background-color: #000000;
+    color: white;
+    margin-top: 5%;
+    padding: 5%;
+    justify-content: center;
+}
