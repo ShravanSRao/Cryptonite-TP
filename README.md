@@ -1,4 +1,5 @@
 # Cryptonite-TP
+#week1
 1)HTML :
 New things i learned :<b>(Note i knew some html before this so i'm just listing the new things i leanred )</b><br>
 a)Use of strong and em tags ,i was familiar with b and i tags before.
@@ -35,3 +36,8 @@ E]I leanred about form tag and how later on we have to use action in it to link 
 F]Diferent types of input for ex:reset,checkbox,radio,password,text
 G]Adding a textbox
 H]I also learned how to add a dropdown and tables but i didnt include it in this file.
+
+#week 2
+https://shravansrao.github.io/Testing/
+This website has the content same as the files i submitted
+This website is self explanatory
