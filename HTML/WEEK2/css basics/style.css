@@ -4,7 +4,6 @@
   font-optical-sizing: auto;
   font-weight: 700;
   box-sizing: border-box;
-  
 
   
 }
@@ -30,6 +29,7 @@ justify-content: space-between;
 display: flex;
 justify-content: space-between;
 align-items: center;
+animation: fade 1s ease-in;
 }
 .navbar .subsections{
     position: relative;
@@ -37,6 +37,8 @@ align-items: center;
     margin-right: 2%;
     display: flex;
     justify-content: right;
+    animation: fade 1s ease;
+
 }
 .subsections ul{
     list-style: none;
@@ -95,6 +97,16 @@ align-items: center;
     to{
         opacity: 1;
         scale: 1;
+
+    }
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
 
     }
 }
@@ -159,6 +171,8 @@ section{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0;
+    animation: fade 1s ease;
+
 
     }
 .slide1 .image{
